@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">FitForm</string>
+    <string name="app_logo">FitForm Logo</string>
+
+    <!-- Login Screen -->
+    <string name="login_subtitle">Track your workouts with ML-powered form analysis</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+
+    <!-- Signup Screen -->
+    <string name="create_account">Create Account</string>
+    <string name="signup_subtitle">Join FitForm and start your fitness journey</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="age_hint">Age</string>
+    <string name="weight_hint">Weight</string>
+    <string name="height_hint">Height</string>
+    <string name="fitness_level_hint">Fitness Level</string>
+    <string name="signup_button">Create Account</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="login">Login</string>
+
+    <!-- Fitness Levels -->
+    <string name="fitness_beginner">Beginner</string>
+    <string name="fitness_intermediate">Intermediate</string>
+    <string name="fitness_advanced">Advanced</string>
+
+    <!-- Main Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_workouts">Workouts</string>
+    <string name="nav_camera">Camera</string>
+    <string name="nav_progress">Progress</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Dashboard -->
+    <string name="welcome_back">Welcome back!</string>
+    <string name="today_workout">Today\'s Workout</string>
+    <string name="start_workout">Start Workout</string>
+    <string name="quick_stats">Quick Stats</string>
+    <string name="workouts_completed">Workouts Completed</string>
+    <string name="current_streak">Current Streak</string>
+    <string name="total_calories">Total Calories</string>
+
+    <!-- Workouts -->
+    <string name="my_workouts">My Workouts</string>
+    <string name="pre_built_workouts">Pre-built Workouts</string>
+    <string name="create_workout">Create Workout</string>
+    <string name="workout_categories">Categories</string>
+    <string name="strength">Strength</string>
+    <string name="cardio">Cardio</string>
+    <string name="flexibility">Flexibility</string>
+    <string name="hiit">HIIT</string>
+
+    <!-- Camera & Form Analysis -->
+    <string name="camera_title">Form Analysis</string>
+    <string name="position_camera">Position yourself in the camera view</string>
+    <string name="form_analysis_active">Form Analysis Active</string>
+    <string name="form_score">Form Score: %1$d%%</string>
+    <string name="good_form">Good Form!</string>
+    <string name="adjust_form">Adjust your form</string>
+    <string name="start_analysis">Start Analysis</string>
+    <string name="stop_analysis">Stop Analysis</string>
+
+    <!-- Progress -->
+    <string name="progress_title">Progress</string>
+    <string name="weekly_progress">Weekly Progress</string>
+    <string name="monthly_progress">Monthly Progress</string>
+    <string name="strength_progress">Strength Progress</string>
+    <string name="form_improvement">Form Improvement</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="privacy">Privacy</string>
+    <string name="about">About</string>
+
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="done">Done</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="retry">Retry</string>
+
+    <!-- Permissions -->
+    <string name="camera_permission_required">Camera permission is required for form analysis</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="go_to_settings">Go to Settings</string>
+
+    <!-- Play Store Metadata -->
+    <string name="app_description">FitForm is an AI-powered fitness app that helps you track workouts with real-time form analysis. Get personalized feedback on your exercise technique using advanced pose detection technology.</string>
+    <string name="app_short_description">AI-powered workout tracking with form analysis</string>
+    <string name="app_keywords">fitness, workout, AI, form analysis, pose detection, exercise, health, training</string>
+    <string name="app_category">Health and Fitness</string>
+    <string name="app_content_rating">Everyone</string>
+
+    <!-- Height Estimation -->
+    <string name="height_estimation_title">Height Estimation</string>
+    <string name="height_estimation_subtitle">Use your camera to measure your height</string>
+    <string name="estimate_height_button">Estimate Height</string>
+    <string name="height_estimated">Height estimated: %1$d cm</string>
+    <string name="height_estimation_instructions">For accurate height measurement:\n1. Place a reference object (like a credit card) next to you\n2. Stand straight with arms at your sides\n3. Ensure your full body is visible in the camera frame</string>
+
+    <!-- Analytics Events -->
+    <string name="analytics_event_signup">user_signup</string>
+    <string name="analytics_event_login">user_login</string>
+    <string name="analytics_event_height_estimation">height_estimation</string>
+    <string name="analytics_event_workout_start">workout_start</string>
+    <string name="analytics_event_form_analysis">form_analysis</string>
+
+    <!-- Google Sign-In -->
+    <!-- TODO: Replace with your Web Client ID from Firebase Console -->
+    <!-- Go to Firebase Console > Project Settings > Your Apps > Web App > OAuth 2.0 Client IDs -->
+    <string name="default_web_client_id">874386767147-btftpm45dla06ccdmpmcnnq3o55hvrff.apps.googleusercontent.com</string>
+</resources>
